@@ -34,12 +34,14 @@ Asegúrate de tener las siguientes herramientas instaladas en tu máquina:
 Accede a la carpeta del proyecto y ejecuta el siguiente comando para instalar las dependencias de Node.js:
 
     cd mi-juego-adivinanza
+
     npm install
 3. Ejecutar la aplicación en desarrollo
 Para ejecutar la aplicación localmente:
 
     npm start
-Esto iniciará un servidor en http://localhost:3000 y podrás acceder al juego desde tu navegador.
+    
+    Esto iniciará un servidor en http://localhost:3000 y podrás acceder al juego desde tu navegador.
 
 ## Uso
 Abre tu navegador y ve a http://localhost:3000.
