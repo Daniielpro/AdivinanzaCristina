@@ -11,19 +11,19 @@
 ## Estructura del proyecto
 La estructura básica del proyecto es la siguiente:
 
-/mi-juego-adivinanza
-│
-├── /public
-│   └── index.html       # Archivo HTML que contiene la vista del juego.
-│   └── script.js        # Lógica del servidor y configuración de Express.
-│
-├── Dockerfile           # Configuración para crear la imagen Docker.
-├── package.json         # Dependencias del proyecto y scripts de NPM.
-└── README.md            # Este archivo README.
+    /mi-juego-adivinanza
+    │
+    ├── /public
+    │   ├── index.html       # Archivo HTML que contiene la vista del juego.
+    │   └── script.js        # Lógica del servidor y configuración de Express.
+    │
+    ├── Dockerfile           # Configuración para crear la imagen Docker.
+    ├── package.json         # Dependencias del proyecto y scripts de NPM.
+    └── README.md            # Este archivo README.
 ## Requisitos previos
 Asegúrate de tener las siguientes herramientas instaladas en tu máquina:
 
-Node.js: Descargar e instalar Node.js
+    Node.js: Descargar e instalar Node.js
 
 ## Instalación
 1. Clonar el repositorio
@@ -47,15 +47,6 @@ Abre tu navegador y ve a http://localhost:3000.
     Introduce un número y haz clic en "Adivinar".
     El juego te dará pistas sobre si el número es muy bajo o muy alto.
     Si adivinas el número o te quedas sin intentos, el juego se detendrá.
-## Contribución
-
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tu característica (git checkout -b feature/mi-nueva-caracteristica).
-3. Realiza tus cambios y haz un commit (git commit -am 'Agregada mi nueva característica').
-4. Haz push a tu rama (git push origin feature/mi-nueva-caracteristica).
-5. Abre un pull request.
 
 ## Autor
 Autor: Cristina Colcha
