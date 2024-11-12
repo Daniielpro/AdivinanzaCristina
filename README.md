@@ -16,6 +16,7 @@ La estructura básica del proyecto es la siguiente:
     ├── /public
     │   ├── index.html       # Archivo HTML que contiene la vista del juego.
     │   └── script.js        # Lógica del servidor y configuración de Express.
+    |   └── styles.css        # estilos de la pagina.
     │
     ├── Dockerfile           # Configuración para crear la imagen Docker.
     ├── package.json         # Dependencias del proyecto y scripts de NPM.
@@ -27,7 +28,6 @@ Asegúrate de tener las siguientes herramientas instaladas en tu máquina:
 
 ## Instalación
 1. Clonar el repositorio
-Primero, clona este repositorio en tu máquina local usando Git:
 
     git clone https://github.com/Cristina-Colcha/Adivinanza.git
 2. Instalar dependencias
@@ -36,7 +36,7 @@ Accede a la carpeta del proyecto y ejecuta el siguiente comando para instalar la
     cd mi-juego-adivinanza
     npm install
 3. Ejecutar la aplicación en desarrollo
-Para ejecutar la aplicación localmente, puedes utilizar el siguiente comando:
+Para ejecutar la aplicación localmente:
 
     npm start
 Esto iniciará un servidor en http://localhost:3000 y podrás acceder al juego desde tu navegador.
