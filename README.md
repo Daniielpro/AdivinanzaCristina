@@ -58,5 +58,5 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 5. Abre un pull request.
 
 ## Autor
-
+Autor: Cristina Colcha
 Este README está organizado en un solo bloque con toda la información detallada, y cada sección se describe claramente para una comprensión rápida.
